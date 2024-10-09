@@ -14,8 +14,8 @@ import java.util.List;
 @Validated
 public interface AttributesEndpoints {
 
-    @GetExchange("api/v1/attributes/find-attributes-nameDevice/{nameDevice}")
-    ResponseEntity<List<AttributesDto>> findAttributesByName(@PathVariable String nameDevice,
+    @GetExchange("/find-attributes-nameDevice/{nameDevice}")
+    List<AttributesDto> findAttributesByName(@PathVariable(value = "nameDevice") String nameDevice,
                                                              @RequestParam(value = "offset", defaultValue = "0") @Min(0) Integer offset,
                                                              @RequestParam(value = "limit", defaultValue = "10") @Min(1) @Max(100) Integer limit);
 

@@ -1,22 +1,17 @@
-package com.petregisterofequipmentnew.petregisterofequipmentnew.front.feigns;
+/*package com.petregisterofequipmentnew.petregisterofequipmentnew.front.feigns;
 
-import com.petregisterofequipmentnew.back.dtos.ProductDto;
-import com.petregisterofequipmentnew.back.others.ColorEquipment;
-import com.petregisterofequipmentnew.back.others.DirectionSort;
-import com.petregisterofequipmentnew.back.others.ParametersSort;
-import com.petregisterofequipmentnew.back.others.TypeEquipmentEnum;
+import com.petregisterofequipmentnew.petregisterofequipmentnew.front.entities.ColorEquipment;
+import com.petregisterofequipmentnew.petregisterofequipmentnew.front.entities.TypeEquipmentEnum;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PositiveOrZero;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "productFeignClient")
 @Validated
 public interface ProductFeignClient {
 
@@ -51,4 +46,4 @@ public interface ProductFeignClient {
     @DeleteMapping("api/v1/product/delete/{id}")
     ResponseEntity<Boolean> deleteModel(@PathVariable @NotNull Long id);
 
-}
+}*/

@@ -9,5 +9,7 @@ public class ConstantsFront {
     public static final String MARGIN_CSS_STYLE = "margin-top";
     public static final String CHOOSE_ELEMENT = "Choose element";
     public static final String EMPTY_SPACE = "";
+    public static final String SPACE = " ";
+
 
 }
