@@ -60,7 +60,7 @@ public class ModelView extends BaseAppLayout {
     private ProductDto createProductDtoWithBuilder() {
         return ProductDto.builder().id(Long.valueOf(ONE_FLAG)).nameProduct(TEST_VALUE_STRING).nameTypeTechnic(FRIDGE)
                 .manufacturerCountry(TEST_VALUE_STRING).manufacturerCompany(TEST_VALUE_STRING)
-                .isOrderOnline(TEST_VALUE_BOOLEAN).isPossibilityInstallments(TEST_VALUE_BOOLEAN)
+                .isOrderOnline(TRUE_VALUE_BOOLEAN).isPossibilityInstallments(TRUE_VALUE_BOOLEAN)
                 .attributesDto(new AttributesDto(Long.valueOf(ONE_FLAG), null, null,
                         null, null, null, null, null,
                         null, null, null, null,

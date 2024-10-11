@@ -20,7 +20,7 @@ public class ConstantsClass {
     public static final String ATTRIBUTESDTO_FIELD_NAME = "attributesDto";
     public static final String NAME_DEVICE_FIELD_NAME = "nameDevice";
     public static final String D_ALPHABET_SYMBOL = "D";
-    public static final Boolean TEST_VALUE_BOOLEAN = true;
+    public static final Boolean TRUE_VALUE_BOOLEAN = true;
     public static final Integer ONE_FLAG = 1;
     public static final Integer ZERO_FLAG = 0;
     public static final List<TypeEquipmentEnum> TYPE_EQUIPMENT_ENUM_LIST = List.of(FRIDGE, HOOVER, PERSONAL_COMPUTER, SMARTPHONE, TELEVISION);

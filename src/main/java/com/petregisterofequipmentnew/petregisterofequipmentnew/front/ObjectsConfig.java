@@ -12,7 +12,7 @@ import java.time.Duration;
 @Configuration
 public class ObjectsConfig {
 
-    /*@Value("${api.base.url}")
+   /* @Value("${api.base.url}")
     private String rootUri;
 
     @Bean
