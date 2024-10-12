@@ -33,7 +33,7 @@ public class CreateProductDialog extends Dialog {
     public CreateProductDialog() {
         ComboBox<String> comboBox = createNewCombox();
 
-        Button saveButton = new Button("Сохранить", event -> {
+        Button saveButton = new Button(CREATE_NEW_ENTITY, event -> {
             close(); // Закрыть диалог после сохранения
         });
 
@@ -54,7 +54,7 @@ public class CreateProductDialog extends Dialog {
                     if (!filter.isEmpty()) {
                         try {
                             ResponseEntity<List<AttributesDto>> responseEntity = restTemplate.exchange(
-                                    "/api/v1/attributes/find-attributes-nameDevice/{nameDevice}?offset={offset}&limit={limit}",
+                                    "/api/v1/attributes/find-attributes-nameDevice/{nameDevice}?offset={offset}&limit={limit}&serviceFlag=1",
                                     org.springframework.http.HttpMethod.GET,
                                     null,
                                     new ParameterizedTypeReference<List<AttributesDto>>() {},

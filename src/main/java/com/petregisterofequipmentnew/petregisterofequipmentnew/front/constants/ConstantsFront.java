@@ -12,6 +12,7 @@ public class ConstantsFront {
     public static final String EMPTY_VALUE_NOT_DENIED = "Пустое значение не разрешено!";
     public static final String LOADING_DATA_ERROR = "Ошибка при загрузке данных.";
     public static final String COUNTING_ELEMENT_ERROR = "Ошибка при подсчете элементов.";
+    public static final String CREATE_NEW_ENTITY = "Создать";
     public static final String EMPTY_SPACE = "";
     public static final String SPACE = " ";
 
