@@ -42,6 +42,7 @@ public class CreateProductDialog extends Dialog {
 
     private ComboBox<String> createNewCombox() {
         ComboBox<String> comboBox = getStringComboBox();
+        comboBox.setPageSize(PAGE_SIZE);
         // Реализация DataProvider с корректными коллбэками
         DataProvider<String, String> dataProvider = DataProvider.fromFilteringCallbacks(
                 // Коллбэк для получения данных
